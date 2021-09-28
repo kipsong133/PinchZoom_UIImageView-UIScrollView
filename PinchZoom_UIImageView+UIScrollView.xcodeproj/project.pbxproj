@@ -13,6 +13,8 @@
 		25C754BD2702C50A00A9B9B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25C754BB2702C50A00A9B9B9 /* Main.storyboard */; };
 		25C754BF2702C50C00A9B9B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25C754BE2702C50C00A9B9B9 /* Assets.xcassets */; };
 		25C754C22702C50C00A9B9B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25C754C02702C50C00A9B9B9 /* LaunchScreen.storyboard */; };
+		25C754CA2702C52800A9B9B9 /* ImageScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C754C92702C52800A9B9B9 /* ImageScrollView.swift */; };
+		25C754CC2702C66E00A9B9B9 /* crab.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 25C754CB2702C66E00A9B9B9 /* crab.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		25C754BE2702C50C00A9B9B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		25C754C12702C50C00A9B9B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		25C754C32702C50C00A9B9B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25C754C92702C52800A9B9B9 /* ImageScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageScrollView.swift; sourceTree = "<group>"; };
+		25C754CB2702C66E00A9B9B9 /* crab.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = crab.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				25C754B52702C50A00A9B9B9 /* AppDelegate.swift */,
 				25C754B72702C50A00A9B9B9 /* SceneDelegate.swift */,
 				25C754B92702C50A00A9B9B9 /* ViewController.swift */,
+				25C754C92702C52800A9B9B9 /* ImageScrollView.swift */,
+				25C754CB2702C66E00A9B9B9 /* crab.jpg */,
 				25C754BB2702C50A00A9B9B9 /* Main.storyboard */,
 				25C754BE2702C50C00A9B9B9 /* Assets.xcassets */,
 				25C754C02702C50C00A9B9B9 /* LaunchScreen.storyboard */,
@@ -128,6 +134,7 @@
 				25C754C22702C50C00A9B9B9 /* LaunchScreen.storyboard in Resources */,
 				25C754BF2702C50C00A9B9B9 /* Assets.xcassets in Resources */,
 				25C754BD2702C50A00A9B9B9 /* Main.storyboard in Resources */,
+				25C754CC2702C66E00A9B9B9 /* crab.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				25C754BA2702C50A00A9B9B9 /* ViewController.swift in Sources */,
+				25C754CA2702C52800A9B9B9 /* ImageScrollView.swift in Sources */,
 				25C754B62702C50A00A9B9B9 /* AppDelegate.swift in Sources */,
 				25C754B82702C50A00A9B9B9 /* SceneDelegate.swift in Sources */,
 			);
