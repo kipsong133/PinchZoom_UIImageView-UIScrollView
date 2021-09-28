@@ -45,6 +45,9 @@ class ImageScrollView: UIScrollView {
         self.contentSize = imageSize
         setCurrentMaxAndMinZoomScale()
         self.zoomScale = self.minimumZoomScale
+        
+        self.imageZoomView.addGestureRecognizer(self.zoomingTap)
+        self.imageZoomView.isUserInteractionEnabled = true
     }
     
     override func layoutSubviews() {
