@@ -3,7 +3,7 @@
 //  PinchZoom_UIImageView+UIScrollView
 //
 //  Created by 김우성 on 2021/09/28.
-//
+// 출처 : https://youtu.be/YpVZgQW1TvQ
 
 import UIKit
 
@@ -80,6 +80,8 @@ class ImageScrollView: UIScrollView {
         self.minimumZoomScale = minScale
         self.maximumZoomScale = maxScale
     }
+    
+
     
     func centerImage() {
         let boundsSize = self.bounds.size
